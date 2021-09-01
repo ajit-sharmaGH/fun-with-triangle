@@ -150,3 +150,34 @@ input {
     color: lightgreen;
     font-size: x-large;
 }
+
+footer {
+    text-align: center;
+    color: black;
+    margin-top: 350px;
+    /* margin-bottom: 270px; */
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+/* .footer-list {
+margin: 1rem;
+}
+*/
+
+a,
+img,
+li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+img {
+    width: 40px;
+    margin: 0.6rem;
+}
