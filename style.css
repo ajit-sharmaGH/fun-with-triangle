@@ -4,10 +4,13 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     background-color: grey;
     font-family: cursive;
+    width: 100%;
+    margin: auto;
+    display: block;
+    /* flex-direction: column; */
+    margin-left: 1rem;
 }
 
 h1 {
@@ -24,27 +27,17 @@ h1 {
 
 nav {
     margin: auto;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     font-size: large;
 }
 
 .links {
-    margin: 0.1rem;
-    /*margin-bottom: 50px;
-    */
-    /*padding: 5px 10px 5px 10px;
-    */
-    border-radius: 0.2rem;
-    display: flex;
-    background-color: lightgreen;
     text-align: center;
     border-radius: 0.5rem;
-    padding: 10px 150px 10px 150px;
     color: blue;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    flex-direction: row;
+    background-color: lightgreen;
+    margin: 0.1rem;
 }
 
 .links:hover {
