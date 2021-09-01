@@ -33,11 +33,15 @@ nav {
 
 .links {
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     color: blue;
     flex-direction: row;
     background-color: lightgreen;
     margin: 0.1rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
 }
 
 .links:hover {
